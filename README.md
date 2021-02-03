@@ -37,7 +37,7 @@ Open the following URL in any browser or execute the curl command to call weathe
 
 Provide the valid City name in place of {City}
 
-Sample API response for Amsterdam city would look like:
+Sample API response for 'Amsterdam' city input would look like:
 
 `{ "id":2759794,
    "city":"Amsterdam",
