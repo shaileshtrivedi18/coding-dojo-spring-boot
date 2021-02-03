@@ -2,24 +2,12 @@ spring:
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     hibernate:
-      ddl-auto: update
-    properties:
-      hibernate:
-        jdbc:
-          lob:
-            non_contextual_creation: true
+      ddl-auto: create-drop
   datasource:
-    url: jdbc:postgresql://localhost:5432/weatherDB
     driver-class-name: org.postgresql.Driver
-    username: admin
+    url: jdbc:postgresql://localhost:5432/weatherDB
     password: admin
-
-server:
-  port: 8081
-
-logging:
-  level:
-    ROOT: info
+    username: admin
 
 config:
   api:
