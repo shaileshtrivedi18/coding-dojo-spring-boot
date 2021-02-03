@@ -28,6 +28,7 @@ Once the database is setup, execute the following command to run the application
 
 `java -jar target/weather-app-spring-boot-0.0.1-SNAPSHOT.jar`
 
+API documentation (using Swagger) can be checked using URL : `http://localhost:8081/swagger-ui.html#/`
 
 ### Use the application
 
